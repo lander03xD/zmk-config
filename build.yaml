@@ -28,3 +28,8 @@ include:
   - board: nice_nano_v2
     shield: cheap03xD_right
 
+  - board: nice_nano_v2
+    shield: comb03xD
+    
+  - board: nice_nano_v2
+    shield: settings_reset

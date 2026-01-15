@@ -1,0 +1,9 @@
+# Required files for ZMK to recognize the shield
+
+if COMB03XD
+
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "Comb03xD"
+
+endif

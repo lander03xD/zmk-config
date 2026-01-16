@@ -40,11 +40,11 @@ include:
 
 # SplitFish
    - board: nice_nano_v2
-     shield: split_fish_left
+     shield: splitFish_left
      snippet: studio-rpc-usb-uart
      cmake-args: -DCONFIG_ZMK_STUDIO=y
    - board: nice_nano_v2
-     shield: split_fish_right
+     shield: splitFish_right
     
 #RESET
   - board: nice_nano_v2

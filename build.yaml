@@ -59,7 +59,6 @@ include:
 #    cmake-args: -DCONFIG_ZMK_STUDIO=y
 
 # Sten03xD
-include:
   - board: seeeduino_xiao_ble
     shield: sten03xD_left
   - board: seeeduino_xiao_ble

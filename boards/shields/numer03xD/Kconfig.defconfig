@@ -1,0 +1,13 @@
+if SHIELD_NUMER03XD
+
+config ZMK_KEYBOARD_NAME 
+    default "numer03xD"
+    
+#sleep settings
+config ZMK_SLEEP
+    default y
+
+config ZMK_IDLE_SLEEP_TIMEOUT
+    default 120000
+
+endif

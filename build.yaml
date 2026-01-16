@@ -39,12 +39,18 @@ include:
 #    cmake-args: -DCONFIG_ZMK_STUDIO=y
 
 # SplitFish
+#  - board: nice_nano_v2
+#    shield: splitFish_left
+#    snippet: studio-rpc-usb-uart
+#    cmake-args: -DCONFIG_ZMK_STUDIO=y
+#  - board: nice_nano_v2
+#    shield: splitFish_right
+    
+# Numer03xD
   - board: nice_nano_v2
-    shield: splitFish_left
+    shield: numer03xD
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
-  - board: nice_nano_v2
-    shield: splitFish_right
     
 #RESET
   - board: nice_nano_v2

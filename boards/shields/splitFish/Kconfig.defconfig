@@ -1,0 +1,48 @@
+if SHIELD_SPLITFISH_LEFT
+
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "SplitFish"
+
+#currently central is the left side
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_SPLITFISH_LEFT || SHIELD_SPLITFISH_RIGHT
+
+config ZMK_SPLIT
+    default y
+    
+#sleep settings
+#Idle
+config ZMK_IDLE_TIMEOUT
+    default 20000
+
+#Deep sleep
+config ZMK_SLEEP
+    default y
+
+config ZMK_IDLE_SLEEP_TIMEOUT
+    default 300000
+
+#BLE settings
+config ZMK_BLE_EXPERIMENTAL_CONN
+    default y
+
+#zephyr ble settings
+config BT_PERIPHERAL_PREF_TIMEOUT
+    default 800
+    
+config BT_PERIPHERAL_PREF_MIN_INT
+    default 48
+    
+config BT_PERIPHERAL_PREF_MAX_INT
+    default 80
+    
+config BT_PERIPHERAL_PREF_LATENCY
+    default 5
+
+endif
+	

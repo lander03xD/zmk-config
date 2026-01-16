@@ -1,0 +1,6 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"B+1, GND1",TestPoint,2,TestPoint,
+"D1, D10, D11, D12, D13, D14, D15, D16, D17, D18, D2, D3, D4, D5, D6, D7, D8, D9",Diode_DO-35,18,Diode,
+"S1, S10, S11, S12, S13, S14, S15, S16, S17, S18, S2, S3, S4, S5, S6, S7, S8, S9",MX_Solder_1.00u_Reversible,18,Keyswitch,
+SW2,SW_Vertical_Slide_5mm,1,SW_SPDT_312,
+U1,Nice_Nano_V2,1,Nice_Nano_V2,

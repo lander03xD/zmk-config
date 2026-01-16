@@ -1,0 +1,6 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+BT1,BatteryHolder_CR2032_20mm,1,Battery_Cell,
+J1,BMS 1S,1,Conn_01x04_Socket,
+"S1, S2, S3, S4",Hotswap_MX_1.00u_reversible_18.5mm,4,Keyswitch,
+SW1,powerswitch_SK12D07VG,1,SW_SPDT_312,
+U1,Promicro_nrf52840,1,Promicro_NRF52840,

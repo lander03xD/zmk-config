@@ -1,0 +1,57 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/behaviors.h>
+
+/ {  
+    combos {
+        compatible = "zmk,combos";
+        
+        combo_BT {
+            timeout-ms = <50>;
+            key-positions = <0 1 2 3>;
+            bindings = <&bt BT_CLR>;
+        };
+        
+        combo_rewind {
+            timeout-ms = <50>;
+            key-positions = <0 1>;
+            bindings = <&kp C_FF>;
+        };
+        
+        combo_pause_play {
+            timeout-ms = <50>;
+            key-positions = <1 2>;
+            bindings = <&kp C_PP>;
+        };
+        
+        combo_fast_forward {
+            timeout-ms = <50>;
+            key-positions = <2 3>;
+            bindings = <&kp C_FF>;
+        };
+        
+        combo_unlock {
+            timeout-ms = <50>;
+            key-positions = <1 2 3>;
+            bindings = <&studio_unlock>;
+        };
+        
+    };
+
+    keymap {
+        compatible = "zmk,keymap";
+        
+        default_layer { // Layer 0
+            display-name = "Base";
+            bindings = <
+                &kp C_PREV    &kp C_VOL_UP    &kp C_VOL_DN    &kp C_NEXT    
+
+            >;
+        };
+        
+        extra_1 {
+            status = "reserved";
+        }; 
+    };
+ };

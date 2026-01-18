@@ -1,0 +1,6 @@
+if SHIELD_CRAB03XD
+
+config ZMK_KEYBOARD_NAME 
+    default "Crab03xD"
+
+endif

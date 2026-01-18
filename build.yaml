@@ -59,10 +59,10 @@ include:
 #    cmake-args: -DCONFIG_ZMK_STUDIO=y
 
 # Sten03xD
-  - board: seeeduino_xiao_ble
-    shield: sten03xD_left
-  - board: seeeduino_xiao_ble
-    shield: sten03xD_right
+#  - board: seeeduino_xiao_ble
+#    shield: sten03xD_left
+#  - board: seeeduino_xiao_ble
+#    shield: sten03xD_right
     
 #RESET
   - board: nice_nano_v2

@@ -1,0 +1,6 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+SW1,MX_Hotswap_1.00u,1,Switch,
+SW2,SW_Tactile_Straight_KSL0Axx1LFTR,1,Switch,
+SW3,SW_SPST_EVQP7A,1,Switch,
+"TP1, TP2",TestPoint_Carvera,2,TestPoint,
+U1,Nice_Nano_V2,1,Nice_Nano_V2,

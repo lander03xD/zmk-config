@@ -1456,7 +1456,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 30.48) (xy 96.52 30.48)
+			(xy 123.19 36.83) (xy 120.65 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1466,7 +1466,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 38.1) (xy 96.52 38.1)
+			(xy 123.19 44.45) (xy 120.65 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1476,7 +1476,7 @@
 	)
 	(global_label "B-"
 		(shape input)
-		(at 118.11 35.56 180)
+		(at 142.24 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1486,7 +1486,7 @@
 		)
 		(uuid "01e2dd7a-6e9e-4033-a897-12546d5d6990")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.2824 35.56 0)
+			(at 136.4124 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1498,7 +1498,7 @@
 	)
 	(global_label "row_1"
 		(shape input)
-		(at 194.31 95.25 180)
+		(at 171.45 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1508,7 +1508,7 @@
 		)
 		(uuid "04f955f4-18c1-4f42-a0e5-4fea0ef48961")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.882 95.25 0)
+			(at 163.022 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1520,7 +1520,7 @@
 	)
 	(global_label "row_4"
 		(shape input)
-		(at 194.31 53.34 180)
+		(at 171.45 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1530,7 +1530,7 @@
 		)
 		(uuid "0cbff7fa-0d51-40c4-8146-fa93fdba4bfa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.882 53.34 0)
+			(at 163.022 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1542,7 +1542,7 @@
 	)
 	(global_label "gnd"
 		(shape input)
-		(at 199.39 100.33 0)
+		(at 176.53 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1552,7 +1552,7 @@
 		)
 		(uuid "0fd186ba-d8e0-476e-968d-a56782a60cc8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.8222 100.33 0)
+			(at 182.9622 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1564,7 +1564,7 @@
 	)
 	(global_label "gnd"
 		(shape input)
-		(at 199.39 58.42 0)
+		(at 176.53 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1574,7 +1574,7 @@
 		)
 		(uuid "0fd2f380-24ed-4850-a423-096b33936661")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.8222 58.42 0)
+			(at 182.9622 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1586,7 +1586,7 @@
 	)
 	(global_label "B+"
 		(shape input)
-		(at 118.11 27.94 180)
+		(at 142.24 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1596,7 +1596,7 @@
 		)
 		(uuid "22dd8b4f-6280-43ff-87a0-ae4dc9509b6a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.2824 27.94 0)
+			(at 136.4124 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1630,7 +1630,7 @@
 	)
 	(global_label "P+"
 		(shape input)
-		(at 92.71 52.07 0)
+		(at 113.03 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1640,7 +1640,7 @@
 		)
 		(uuid "3dbeb96b-60f7-4f11-894c-f0c23bc46c8e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.5376 52.07 0)
+			(at 118.8576 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1674,7 +1674,7 @@
 	)
 	(global_label "gnd"
 		(shape input)
-		(at 199.39 86.36 0)
+		(at 176.53 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1684,7 +1684,7 @@
 		)
 		(uuid "4ca116ad-0b2e-4cf1-a88b-597d3bd1c5fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.8222 86.36 0)
+			(at 182.9622 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1696,7 +1696,7 @@
 	)
 	(global_label "Ps+"
 		(shape input)
-		(at 82.55 54.61 180)
+		(at 102.87 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1706,7 +1706,7 @@
 		)
 		(uuid "516053df-311d-465d-9229-38226865413d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.6943 54.61 0)
+			(at 96.0143 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1718,7 +1718,7 @@
 	)
 	(global_label "gnd"
 		(shape input)
-		(at 199.39 72.39 0)
+		(at 176.53 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1728,7 +1728,7 @@
 		)
 		(uuid "7c371057-6581-41fe-90ff-453326b3dd9d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.8222 72.39 0)
+			(at 182.9622 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1762,7 +1762,7 @@
 	)
 	(global_label "P-"
 		(shape input)
-		(at 118.11 33.02 180)
+		(at 142.24 39.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1772,7 +1772,7 @@
 		)
 		(uuid "7e9fbf79-a269-451c-88f5-f7d7fe0c3f0e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.2824 33.02 0)
+			(at 136.4124 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1784,7 +1784,7 @@
 	)
 	(global_label "B-"
 		(shape input)
-		(at 99.06 38.1 0)
+		(at 123.19 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1794,7 +1794,7 @@
 		)
 		(uuid "7fade63e-6b15-4768-86cb-eb30892813f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.8876 38.1 0)
+			(at 129.0176 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1806,7 +1806,7 @@
 	)
 	(global_label "row_2"
 		(shape input)
-		(at 194.31 81.28 180)
+		(at 171.45 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1816,7 +1816,7 @@
 		)
 		(uuid "883e1fa4-2cc6-43e9-9b4d-5ae4a4ca1bf3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.882 81.28 0)
+			(at 163.022 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1828,7 +1828,7 @@
 	)
 	(global_label "row_3"
 		(shape input)
-		(at 194.31 67.31 180)
+		(at 171.45 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1838,7 +1838,7 @@
 		)
 		(uuid "95b54231-c33c-4dac-b105-bbd070c8410a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.882 67.31 0)
+			(at 163.022 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1872,7 +1872,7 @@
 	)
 	(global_label "B+"
 		(shape input)
-		(at 99.06 30.48 0)
+		(at 123.19 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1882,7 +1882,7 @@
 		)
 		(uuid "adf78564-bb66-43bc-8ee2-6c8e263f24c2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.8876 30.48 0)
+			(at 129.0176 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2004,7 +2004,7 @@
 	)
 	(global_label "Ps+"
 		(shape input)
-		(at 118.11 30.48 180)
+		(at 142.24 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2014,7 +2014,7 @@
 		)
 		(uuid "fdbcbed4-0d00-4276-a1f9-e19ff3b024bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.2543 30.48 0)
+			(at 135.3843 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2026,7 +2026,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 97.79 133.35 0)
+		(at 101.6 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2035,7 +2035,7 @@
 		(fields_autoplaced yes)
 		(uuid "1393e31a-469f-4c6e-8dda-99ff463953cb")
 		(property "Reference" "H3"
-			(at 100.33 132.0799 0)
+			(at 104.14 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2044,7 +2044,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 100.33 134.6199 0)
+			(at 104.14 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2053,7 +2053,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 97.79 133.35 0)
+			(at 101.6 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2062,7 +2062,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 133.35 0)
+			(at 101.6 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2071,7 +2071,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 97.79 133.35 0)
+			(at 101.6 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2090,7 +2090,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 156.21 134.62 0)
+		(at 142.24 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2099,7 +2099,7 @@
 		(fields_autoplaced yes)
 		(uuid "195bf270-305f-4cc0-9a87-2d9cd4c90e96")
 		(property "Reference" "H6"
-			(at 158.75 133.3499 0)
+			(at 144.78 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2108,7 +2108,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 158.75 135.8899 0)
+			(at 144.78 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2117,7 +2117,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 156.21 134.62 0)
+			(at 142.24 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2126,7 +2126,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 134.62 0)
+			(at 142.24 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2135,7 +2135,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 156.21 134.62 0)
+			(at 142.24 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2154,7 +2154,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 96.52 35.56 0)
+		(at 120.65 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2162,7 +2162,7 @@
 		(dnp no)
 		(uuid "19850956-9b65-4fa7-a8b6-bd510f956b9c")
 		(property "Reference" "BT1"
-			(at 86.614 32.512 0)
+			(at 110.744 38.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2171,7 +2171,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 82.804 35.56 0)
+			(at 106.934 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2180,7 +2180,7 @@
 			)
 		)
 		(property "Footprint" "Apiaster:BatteryHolder_CR2032_20mm"
-			(at 96.52 34.036 90)
+			(at 120.65 40.386 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2189,7 +2189,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 34.036 90)
+			(at 120.65 40.386 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2198,7 +2198,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 96.52 35.56 0)
+			(at 120.65 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2223,7 +2223,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 196.85 55.88 0)
+		(at 173.99 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2232,7 +2232,7 @@
 		(fields_autoplaced yes)
 		(uuid "1fbac413-6598-4c1a-9b1e-2a235a70f0cf")
 		(property "Reference" "S1"
-			(at 196.85 48.26 0)
+			(at 173.99 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2240,7 +2240,7 @@
 			)
 		)
 		(property "Value" "Keyswitch"
-			(at 196.85 50.8 0)
+			(at 173.99 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2248,7 +2248,7 @@
 			)
 		)
 		(property "Footprint" "lander03xD:Hotswap_MX_1.00u_reversible_18.5mm"
-			(at 196.85 55.88 0)
+			(at 173.99 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2257,7 +2257,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.85 55.88 0)
+			(at 173.99 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2266,7 +2266,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 196.85 55.88 0)
+			(at 173.99 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2291,7 +2291,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
-		(at 123.19 30.48 0)
+		(at 147.32 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2300,7 +2300,7 @@
 		(fields_autoplaced yes)
 		(uuid "36397f9e-374d-4698-8650-b9fec2330ce6")
 		(property "Reference" "J1"
-			(at 124.46 30.4799 0)
+			(at 148.59 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2309,7 +2309,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Socket"
-			(at 124.46 33.0199 0)
+			(at 148.59 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2318,7 +2318,7 @@
 			)
 		)
 		(property "Footprint" "Apiaster:BMS 1S"
-			(at 123.19 30.48 0)
+			(at 147.32 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2327,7 +2327,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 30.48 0)
+			(at 147.32 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2336,7 +2336,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 123.19 30.48 0)
+			(at 147.32 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2367,7 +2367,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 196.85 97.79 0)
+		(at 173.99 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2376,7 +2376,7 @@
 		(fields_autoplaced yes)
 		(uuid "42b9d064-eba4-40cc-ad0c-c5492f4fcfc8")
 		(property "Reference" "S4"
-			(at 196.85 90.17 0)
+			(at 173.99 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2384,7 +2384,7 @@
 			)
 		)
 		(property "Value" "Keyswitch"
-			(at 196.85 92.71 0)
+			(at 173.99 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2392,7 +2392,7 @@
 			)
 		)
 		(property "Footprint" "lander03xD:Hotswap_MX_1.00u_reversible_18.5mm"
-			(at 196.85 97.79 0)
+			(at 173.99 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2401,7 +2401,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.85 97.79 0)
+			(at 173.99 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2410,7 +2410,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 196.85 97.79 0)
+			(at 173.99 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2435,7 +2435,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 196.85 83.82 0)
+		(at 173.99 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2444,7 +2444,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ba41c3c-68aa-4944-9b64-87f6024966b0")
 		(property "Reference" "S3"
-			(at 196.85 76.2 0)
+			(at 173.99 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2452,7 +2452,7 @@
 			)
 		)
 		(property "Value" "Keyswitch"
-			(at 196.85 78.74 0)
+			(at 173.99 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2460,7 +2460,7 @@
 			)
 		)
 		(property "Footprint" "lander03xD:Hotswap_MX_1.00u_reversible_18.5mm"
-			(at 196.85 83.82 0)
+			(at 173.99 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2469,7 +2469,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.85 83.82 0)
+			(at 173.99 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2478,7 +2478,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 196.85 83.82 0)
+			(at 173.99 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2503,7 +2503,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 86.36 116.84 0)
+		(at 101.6 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2512,7 +2512,7 @@
 		(fields_autoplaced yes)
 		(uuid "76675f3a-cf91-40f7-ba98-889330ccd422")
 		(property "Reference" "H1"
-			(at 88.9 115.5699 0)
+			(at 104.14 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2521,7 +2521,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 88.9 118.1099 0)
+			(at 104.14 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2530,7 +2530,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 86.36 116.84 0)
+			(at 101.6 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2539,7 +2539,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 116.84 0)
+			(at 101.6 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2548,7 +2548,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 86.36 116.84 0)
+			(at 101.6 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2567,7 +2567,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 121.92 130.81 0)
+		(at 121.92 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2576,7 +2576,7 @@
 		(fields_autoplaced yes)
 		(uuid "9abd8639-1b9d-49e2-8f6e-7f830fe43384")
 		(property "Reference" "H4"
-			(at 124.46 129.5399 0)
+			(at 124.46 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2585,7 +2585,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 124.46 132.0799 0)
+			(at 124.46 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2594,7 +2594,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 121.92 130.81 0)
+			(at 121.92 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2603,7 +2603,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 130.81 0)
+			(at 121.92 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2612,7 +2612,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 121.92 130.81 0)
+			(at 121.92 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2631,7 +2631,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 111.76 115.57 0)
+		(at 121.92 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2640,7 +2640,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7774e18-caea-4a3a-80e7-24bc93f40c66")
 		(property "Reference" "H2"
-			(at 114.3 114.2999 0)
+			(at 124.46 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2649,7 +2649,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 114.3 116.8399 0)
+			(at 124.46 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2658,7 +2658,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 111.76 115.57 0)
+			(at 121.92 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2667,7 +2667,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 115.57 0)
+			(at 121.92 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2676,7 +2676,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 111.76 115.57 0)
+			(at 121.92 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2844,7 +2844,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 149.86 123.19 0)
+		(at 142.24 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2853,7 +2853,7 @@
 		(fields_autoplaced yes)
 		(uuid "c578d46a-ae3b-44c9-bee1-4c3085c2fe33")
 		(property "Reference" "H5"
-			(at 152.4 121.9199 0)
+			(at 144.78 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2862,7 +2862,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 152.4 124.4599 0)
+			(at 144.78 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2871,7 +2871,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 149.86 123.19 0)
+			(at 142.24 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2880,7 +2880,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 123.19 0)
+			(at 142.24 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2889,7 +2889,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 149.86 123.19 0)
+			(at 142.24 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2908,7 +2908,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 196.85 69.85 0)
+		(at 173.99 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2917,7 +2917,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd44bfb4-650e-4331-97bc-9e97fe8185a1")
 		(property "Reference" "S2"
-			(at 196.85 62.23 0)
+			(at 173.99 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2925,7 +2925,7 @@
 			)
 		)
 		(property "Value" "Keyswitch"
-			(at 196.85 64.77 0)
+			(at 173.99 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2933,7 +2933,7 @@
 			)
 		)
 		(property "Footprint" "lander03xD:Hotswap_MX_1.00u_reversible_18.5mm"
-			(at 196.85 69.85 0)
+			(at 173.99 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2942,7 +2942,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.85 69.85 0)
+			(at 173.99 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2951,7 +2951,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 196.85 69.85 0)
+			(at 173.99 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2976,7 +2976,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT_312")
-		(at 87.63 54.61 0)
+		(at 107.95 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2985,7 +2985,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed5cfaa1-30f1-4263-bc51-8aaa8e34f2bb")
 		(property "Reference" "SW1"
-			(at 87.63 45.72 0)
+			(at 107.95 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2993,7 +2993,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT_312"
-			(at 87.63 48.26 0)
+			(at 107.95 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3001,7 +3001,7 @@
 			)
 		)
 		(property "Footprint" "lander03xD:powerswitch_SK12D07VG"
-			(at 87.63 64.77 0)
+			(at 107.95 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3010,7 +3010,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 62.23 0)
+			(at 107.95 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3019,7 +3019,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 87.63 54.61 0)
+			(at 107.95 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)

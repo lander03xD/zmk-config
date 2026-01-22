@@ -59,16 +59,16 @@ include:
 #    cmake-args: -DCONFIG_ZMK_STUDIO=y
 
 # Sten03xD
-#  - board: seeeduino_xiao_ble
-#    shield: sten03xD_left
-#  - board: seeeduino_xiao_ble
-#    shield: sten03xD_right
+  - board: nice_nano_v2
+    shield: sten03xD_left
+  - board: nice_nano_v2
+    shield: sten03xD_right
 
 #Crab03xD
-  - board: nice_nano_v2
-    shield: crab03xD
-    snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y
+#  - board: nice_nano_v2
+#    shield: crab03xD
+#    snippet: studio-rpc-usb-uart
+#    cmake-args: -DCONFIG_ZMK_STUDIO=y
   
 #RESET
   - board: nice_nano_v2

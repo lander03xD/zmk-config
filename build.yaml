@@ -29,8 +29,8 @@ include:
 #    shield: cheap03xD_right
 
 # Comb03xD
-#  - board: nice_nano_v2
-#    shield: comb03xD
+  - board: nice_nano_v2
+    shield: comb03xD
 
 # Macr03xD
 #  - board: nice_nano_v2

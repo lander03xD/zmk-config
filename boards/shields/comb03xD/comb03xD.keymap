@@ -204,7 +204,7 @@
         
         tapdance_layer {
             display-name = "TapDance";
-            bindings = < &td_nums_low    &td_nums_high    &td_nums_symbols    &td_nums_mods   &kp SPACE >;
+            bindings = < &td_nums_low    &td_nums_high    &td_symbols    &td_mods   &kp SPACE >;
         };
     };
  };

@@ -202,7 +202,7 @@
             bindings = < &kp O    &kp A    &kp E    &kp T   &kp SPACE >;
         };
         
-        base_layer {
+        tapdance_layer {
             display-name = "TapDance";
             bindings = < &td_nums_low    &td_nums_high    &td_nums_symbols    &td_nums_mods   &kp SPACE >;
         };

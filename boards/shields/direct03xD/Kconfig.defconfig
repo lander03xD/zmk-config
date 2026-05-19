@@ -20,5 +20,12 @@ config ZMK_SPLIT
 config ZMK_IDLE_TIMEOUT
     default 20000
 
+#Deep sleep
+config ZMK_SLEEP
+    default y
+
+config ZMK_IDLE_SLEEP_TIMEOUT
+    default 1200000
+
 endif
 	

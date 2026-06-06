@@ -7,6 +7,10 @@ config ZMK_KEYBOARD_NAME
 #currently central is the left side
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
+    
+#deep sleep left half in 60 minutes
+config ZMK_IDLE_SLEEP_TIMEOUT
+    default 3600000	
 
 endif
 
@@ -15,17 +19,22 @@ if SHIELD_DIRECT03XD_LEFT || SHIELD_DIRECT03XD_RIGHT
 config ZMK_SPLIT
     default y
     
-#sleep settings
-#Idle
-config ZMK_IDLE_TIMEOUT
-    default 20000
-
-#Deep sleep
+#Enable deep sleep
 config ZMK_SLEEP
     default y
 
+#Idle sleep after 20 seconds
+config ZMK_IDLE_TIMEOUT
+    default 20000
+    
+endif
+
+
+if SHIELD_DIRECT03XD_RIGHT
+
+#deep sleep right half in 10 minutes
 config ZMK_IDLE_SLEEP_TIMEOUT
-    default 1200000
+    default 600000	
 
 endif
-	
+

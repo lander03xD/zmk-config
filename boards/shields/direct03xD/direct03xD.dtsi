@@ -79,9 +79,17 @@
             ;
     };
     
+    vbatt: vbatt {
+        compatible = "zmk,battery-nrf-vddh";
+    };
+    
     chosen {
         zmk,kscan = &default_kscan;
         zmk,physical-layout = &physical_layout0;
+        zmk,battery = &vbatt;
         // Other chosen items
     };
-};
+}; 
+
+
+

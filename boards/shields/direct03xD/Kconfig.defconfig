@@ -30,15 +30,28 @@ config ZMK_SPLIT
 #Enable deep sleep
 config ZMK_SLEEP
     default y
+    
+#Enable quicker idle state at 15s instead of 30s
+config ZMK_IDLE_TIMEOUT
+    default 15000 
+    
+config ZMK_BLE_EXPERIMENTAL_CONN
+    default y
+    
+config BT_CTLR_TX_PWR_MINUS_8
+    default y
+    
+config BT_PERIPHERAL_PREF_MIN_INT
+    default 48
+    
+config BT_PERIPHERAL_PERF_MAX_INT
+    default 80
+    
+config BT_PERIPHERAL_PERF_LATENCY 
+    default 3
 
-endif
-
-
-if SHIELD_DIRECT03XD_RIGHT
-
-#deep sleep right half in 10 minutes
-config ZMK_IDLE_SLEEP_TIMEOUT
-    default 600000
+config BT_PERIPHERAL_PERF_TIMEOUT
+    default 800
     
 endif
 

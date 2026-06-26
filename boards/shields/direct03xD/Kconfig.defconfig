@@ -45,13 +45,13 @@ endchoice
 config BT_PERIPHERAL_PREF_MIN_INT
     default 48
     
-config BT_PERIPHERAL_PERF_MAX_INT
+config BT_PERIPHERAL_PREF_MAX_INT
     default 80
     
-config BT_PERIPHERAL_PERF_LATENCY 
+config BT_PERIPHERAL_PREF_LATENCY 
     default 3
 
-config BT_PERIPHERAL_PERF_TIMEOUT
+config BT_PERIPHERAL_PREF_TIMEOUT
     default 800
     
 endif

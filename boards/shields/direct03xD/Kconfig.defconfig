@@ -38,8 +38,9 @@ config ZMK_IDLE_TIMEOUT
 config ZMK_BLE_EXPERIMENTAL_CONN
     default y
     
-config BT_CTLR_TX_PWR_MINUS_8
-    default y
+choice BT_CTLR_TX_PWR
+    default BT_CTLR_TX_PWR_MINUS_8
+endchoice
     
 config BT_PERIPHERAL_PREF_MIN_INT
     default 48

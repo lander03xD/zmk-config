@@ -11,10 +11,22 @@ config ZMK_SPLIT_ROLE_CENTRAL
 #deep sleep left half in 60 minutes
 config ZMK_IDLE_SLEEP_TIMEOUT
     default 3600000	
+    
+config ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_PROXY
+    default y 
+
+config ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING
+    default y
 
 endif
 
 if SHIELD_DIRECT03XD_LEFT || SHIELD_DIRECT03XD_RIGHT
+
+config ZMK_HID_KEYBOARD_REPORT_SIZE
+    default 12
+
+config ZMK_POINTING
+    default y
 
 config ZMK_SPLIT
     default y

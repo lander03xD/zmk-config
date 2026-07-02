@@ -3,23 +3,23 @@
 
 // Label of the kscan node in the dtsi
 &default_kscan {
-	input-gpios =  <&gpio0 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>, //Pin_1
-			    <&gpio0 8 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,//Pin_2
-			    <&gpio0 17 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,//Pin_3
-			    <&gpio0 31 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,//Pin_4
-			    <&gpio0 20 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,//Pin_5
-			    <&gpio0 29 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,//Pin_6
-			    <&gpio0 22 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,//Pin_7
-			    <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,//Pin_8
-			    <&gpio0 24 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,//Pin_9
-			    <&gpio1 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,//Pin_10
-			    <&gpio1 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,//Pin_11
-			    <&gpio1 13 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,//Pin_12
-			    <&gpio0 11  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,//Pin_13
-			    <&gpio1 4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,//Pin_15
+	input-gpios =  <&gpio0 31 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>, //Pin_1
+			    <&gpio0 20 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,//Pin_2
+			    <&gpio0 8 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,//Pin_3
+			    <&gpio0 17 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,//Pin_4
+			    <&gpio0 29 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,//Pin_5
+			    <&gpio0 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,//Pin_6
+			    <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,//Pin_7
+			    <&gpio0 22 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,//Pin_8
+			    <&gpio1 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,//Pin_9
+			    <&gpio0 24 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,//Pin_10
+			    <&gpio1 13 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,//Pin_11
+			    <&gpio1 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,//Pin_12
+			    <&gpio1 4  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,//Pin_13
+			    <&gpio0 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,//Pin_15
 			    <&gpio1 6  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,//Pin_17
-			    <&gpio1 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,//Pin_19
-			    <&gpio0 10  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,//Pin_20
+			    <&gpio0 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,//Pin_19
+			    <&gpio1 11  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,//Pin_20
 			    <&gpio0 9  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>//Pin_21
 			    ;
 };

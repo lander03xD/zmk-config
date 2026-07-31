@@ -8,6 +8,10 @@
         compatible = "zmk,kscan-gpio-direct";
         label = "default_kscan";
         wakeup-source;
+        input-gpios =  <&gpio1 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>, //Pin_1
+	               <&gpio1 13 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,//Pin_2
+		       <&gpio1 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> //Pin_3
+			    ;
     };
     
     default_transform: keymap_transform0 {

@@ -1,0 +1,28 @@
+if SHIELD_TV03XD
+
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "TV03xD"
+    
+config ZMK_POINTING
+    default y
+    
+#Enable deep sleep
+config ZMK_SLEEP
+    default y
+    
+    
+config I2C
+    default y
+
+config INPUT_TPS43
+    default y
+
+config ZMK_POINTING
+    default y
+
+
+#CONFIG_ZMK_BOARD_COMPAT=y #we might need this, look up what it is
+    
+endif
+

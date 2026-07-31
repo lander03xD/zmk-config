@@ -1,0 +1,126 @@
+#include <dt-bindings/zmk/matrix_transform.h> // Put this with the other includes at the top of your
+#include <physical_layouts.dtsi>
+
+
+/ {  
+    default_kscan: kscan {
+    // https://zmk.dev/docs/config/kscan#direct-gpio-driver
+        compatible = "zmk,kscan-gpio-direct";
+        label = "default_kscan";
+        wakeup-source;
+    };
+    
+    default_transform: keymap_transform0 {
+        compatible = "zmk,matrix-transform";
+        columns = <1>;
+        rows = <3>;
+        map = <RC(0,0) RC(0,1) RC(0,2) >;
+    };
+    
+    physical_layout0: physical_layout_0 { 
+        compatible = "zmk,physical-layout";
+        display-name = "tv03xD";
+        kscan = <&default_kscan>; // Label of the kscan node, optional if all layouts use the same
+        transform = <&default_transform>; // Label of the matrix transform for this layout
+    };
+    
+    chosen {
+        zmk,physical-layout = &physical_layout0;
+    };
+      
+      //ADD THE TOUCHPAD
+      
+    trackpad_listener: trackpad_listener {
+        compatible = "zmk,input-listener";
+        device = <&trackpad>;
+    };
+    
+};
+
+/ {
+    physical_layout0: physical_layout_0 {
+        compatible = "zmk,physical-layout";
+        display-name = "Default Layout";
+        kscan = <&default_kscan>; 
+        transform = <&default_transform>;
+        keys  //                     w   h     x    y     rot    rx    ry
+            = <&key_physical_attrs 100 100     0   0       0     0     0> // Row 1
+            , <&key_physical_attrs 100 100   100   0       0     0     0>
+            , <&key_physical_attrs 100 100   200   0       0     0     0>
+            ;
+    };
+};
+
+
+&pinctrl {
+    my_i2c0_default: my_i2c0_default {
+        group1 {
+            psels = <NRF_PSEL(TWIM_SDA, 0, 17)>,
+                    <NRF_PSEL(TWIM_SCL, 0, 20)>;
+            bias-pull-up;
+        };
+    };
+
+    my_i2c0_sleep: my_i2c0_sleep {
+        group1 {
+            psels = <NRF_PSEL(TWIM_SDA, 0, 17)>,
+                    <NRF_PSEL(TWIM_SCL, 0, 20)>;
+            low-power-enable;
+        };
+    };
+};
+
+&i2c0 {
+   status = "okay";
+    clock-frequency = <I2C_BITRATE_FAST>;
+    pinctrl-0 = <&my_i2c0_default>;
+    pinctrl-1 = <&my_i2c0_sleep>;
+    pinctrl-names = "default", "sleep";
+    //TODO: enable-power-management;
+    //TODO: idle-sleep; /* also sleep the trackpad while ZMK is idle */
+
+    trackpad: trackpad@74 {
+        compatible = "azoteq,tps43";
+        reg = <0x74>;
+        status = "okay";
+        /* GPIO connections */
+        rst-gpios = <&gpio0 22 GPIO_ACTIVE_HIGH>;
+        rdy-gpios = <&gpio0 24 GPIO_ACTIVE_HIGH>;
+
+        
+        sensitivity = <100>;           /* 100% = normal state */
+        scroll-sensitivity = <50>;     /* 50% = normal state */
+        zoom-sensitivity = <50>;       /* 50% = normal state */
+
+
+        filter-settings=<0x0B>;        /* See filter description in `available settings` */
+        // filter-dynamic-bottom=<7>;     /* Dynamic filter bottom beta (optional) */
+        // filter-dynamic-lower=<6>;      /* Dynamic filter lower speed (optional) */
+        // filter-dynamic-upper=<0xFA>;   /* Dynamic filter upper speed (optional) */
+        x-resolution=<1280>;            /* X resolution in pixels */
+        y-resolution=<720>;            /* Y resolution in pixels */
+
+        // swipe-initial-distance=<500>;          /* Swipe initial distance in px (optional) */
+        // swipe-initial-time=<200>;              /* Swipe initial time in ms (optional) */
+        // swipe-angle=<20>;                      /* Max swipe angle in degrees (optional) */
+        // swipe-consecutive-distance=<200>;      /* Swipe consecutive distance in px (optional) */
+        // swipe-consecutive-time=<150>;          /* Swipe consecutive time in ms (optional) */
+        // scroll-initial-distance=<100>;         /* Scroll initial distance in px (optional) */
+        // scroll-angle=<30>;                     /* Max scroll angle in degrees (optional) */
+        // zoom-initial-distance=<100>;           /* Zoom initial distance in px (optional) */
+        // zoom-consecutive-distance=<50>;        /* Zoom consecutive distance in px (optional) */
+
+        scroll;
+        two-finger-tap;
+        single-tap;
+        press-and-hold;
+        swipes;
+        // three-finger-swipe;                    /* 3-finger swipe only, without enabling 1-finger swipe (optional) */
+        // three-finger-swipe-throttle-ms=<300>;  /* Min ms between 3-finger swipe actuations, 0 disables (optional, default 300) */
+        zoom;
+
+        switch-xy;
+        invert-scroll-y;
+    };
+};
+

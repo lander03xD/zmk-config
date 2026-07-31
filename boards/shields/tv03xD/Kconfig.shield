@@ -1,0 +1,4 @@
+# No whitespace after the comma or in your part name!
+config SHIELD_TV03XD
+    def_bool $(shields_list_contains,tv03xD)
+

@@ -6,6 +6,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: lander03xd
       url-base: https://github.com/lander03xd
+    - name: geeksville
+      url-base: https://github.com/geeksville
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
@@ -17,5 +19,8 @@ manifest:
       remote: lander03xd
       revision: main
       path: modules/zmk-module-lander03xd
+    - name: zmk_driver_azoteq # support for touchpad from azoteq
+      remote: geeksville
+      revision: master
   self:
     path: config

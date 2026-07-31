@@ -80,8 +80,8 @@
         reg = <0x74>;
         status = "okay";
         /* GPIO connections */
-        rst-gpios = <&gpio0 22 GPIO_ACTIVE_HIGH>;
-        rdy-gpios = <&gpio0 24 GPIO_ACTIVE_HIGH>;
+        rst-gpios = <&gpio0 24 GPIO_ACTIVE_HIGH>;
+        rdy-gpios = <&gpio1 0 GPIO_ACTIVE_HIGH>;
 
         
         sensitivity = <100>;           /* 100% = normal state */

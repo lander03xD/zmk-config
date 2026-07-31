@@ -6,7 +6,6 @@
 #include <behaviors/morse.dtsi> // include for the morse reference
 #include <behaviors/ceasar.dtsi> // include for the ceasar reference
 #include <behaviors/noise.dtsi> // include for the ceasar reference
-#include <behaviors/ir-tv.dtsi> // include for the ceasar reference
 
 / {  
     keymap {
@@ -15,7 +14,7 @@
         default_layer {
             display-name = "Base";
             bindings = <
-                &morse    &ceasar    &noise    &ir-tv    &kp N5  
+                &morse    &ceasar    &noise    &ir_tv    &kp N5  
                 &kp N6    &kp N7    &kp N8    &kp N9    &kp N0  
                 &kp N1    &kp N2    &kp N3    &kp N4    &kp N5  
                 &kp N6    &kp N7    &kp N8    &kp N9    &kp N0  

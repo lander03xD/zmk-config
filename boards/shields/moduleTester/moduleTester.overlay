@@ -1,5 +1,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <physical_layouts.dtsi>
+#include <zephyr/dt-bindings/pwm/pwm.h>
 
 / {
     default_kscan: kscan {
@@ -80,5 +81,11 @@
     ir_tv: ir_tv {
         compatible = "zmk,behavior-ir-tv";
         #binding-cells = <0>;
+    };
+    ir_led_pwm: ir_led_pwm {
+        compatible = "pwm-leds";
+        pwm_ir: pwm_ir {
+            pwms = <&pwm0 0 PWM_USEC(26) PWM_POLARITY_NORMAL>;
+        };
     };
 };

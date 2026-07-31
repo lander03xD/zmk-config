@@ -1,0 +1,2082 @@
+(kicad_pcb
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(layers
+		(0 "F.Cu" signal)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+		(39 "User.1" user)
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
+	)
+	(setup
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(tenting front back)
+		(pcbplotparams
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12.000000)
+			(dashed_line_gap_ratio 3.000000)
+			(svgprecision 4)
+			(plotframeref no)
+			(mode 1)
+			(useauxorigin no)
+			(hpglpennumber 1)
+			(hpglpenspeed 20)
+			(hpglpendiameter 15.000000)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plot_black_and_white yes)
+			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 1)
+			(scaleselection 1)
+			(outputdirectory "")
+		)
+	)
+	(net 0 "")
+	(footprint "lander03xD:switch_cut"
+		(layer "F.Cu")
+		(uuid "108c2380-e0aa-4fa5-93a1-75b175b41ad9")
+		(at 194.25 124.875)
+		(property "Reference" "S17"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "2d84fd2e-d5bc-45ae-8e63-e406f0dcc5ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "cb57bb0b-e794-4fbb-8d7b-e26880852f7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "508ff058-faba-46f5-a74c-277940345772")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3e3b0e2-7c64-4e8b-8708-5f209cb22a20")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/ce9998b5-bf66-4a3f-898a-6e95076c939d")
+		(sheetname "/")
+		(sheetfile "Low3xD_SP.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "13f28697-d344-4e61-9ccb-694f73dd6a49")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "2b67a46e-e0f6-4dfd-80be-110dc17cb7e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "lander03xD:switch_cut"
+		(layer "F.Cu")
+		(uuid "16ec0dc2-a4e7-4db7-8a13-075c4d210fc9")
+		(at 212.75 129.5)
+		(property "Reference" "S18"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "2495655d-b7db-418c-9a48-4fade1f9f42e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "347ef7a5-bb9e-4c7c-b49f-1948884531a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7506dfa3-a7b5-4762-9323-99c5b82e740a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d86295cb-06c6-475c-9cb3-9d3a008736f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/260b0553-5666-4ba1-86fe-c82e6c6087ca")
+		(sheetname "/")
+		(sheetfile "Low3xD_SP.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "9bb9c90d-d48d-4448-8667-5f771ce32c2d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "18aa270b-22ea-434b-90c1-19a359fb8bdf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "lander03xD:switch_cut"
+		(layer "F.Cu")
+		(uuid "191be2dd-af7a-40f6-87cc-6127f607438a")
+		(at 120.25 69.375)
+		(property "Reference" "S1"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "4c4cc1cb-23c3-4ad6-b265-6e55e7bd8659")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "dea4c9c4-2086-4487-a374-b27a5ed25c49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7e0bf03-2656-4645-b245-dbec6aaafabd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a7d86f83-dbb1-42b7-bcd3-c98b480ba7d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/74cdb41b-343a-4035-b54a-5b7ad88fe6d6")
+		(sheetname "/")
+		(sheetfile "Low3xD_SP.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "8afd763a-877f-4ef9-a814-6523f6481f80")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "337e3d5c-b360-43f7-835a-e015adf2b372")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "lander03xD:switch_cut"
+		(layer "F.Cu")
+		(uuid "2b043849-a58a-4aca-9b58-022199c5f311")
+		(at 120.25 87.875)
+		(property "Reference" "S6"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "172c7bd3-8f14-49fa-a83f-58113b2d87f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "0c58d475-5ba8-4ff9-b2b8-5a15d36b71a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1eca70b2-0463-41f5-98d7-2007c38a027c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b91d817b-534f-498d-a15d-f788e5d5f7bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/309dc69a-ab32-48ed-8bad-133c5e29b107")
+		(sheetname "/")
+		(sheetfile "Low3xD_SP.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "de484789-f657-48b3-8a0c-7e0693ee805a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "c7aae895-c2bc-4ba0-9e37-890181b35072")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "lander03xD:switch_cut"
+		(layer "F.Cu")
+		(uuid "35e843e4-26aa-484d-86c2-a9429de12dc7")
+		(at 120.25 106.375)
+		(property "Reference" "S11"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "45ae30eb-9ae3-4f3b-b2f2-21dd155a22b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "b00cd76a-81ce-49f1-b6bc-4ddddf23c649")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8953cf2-b943-4265-8535-dc994b7b3383")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0e54b00-5596-4f7e-9dbf-bef8548bc2ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/75f088be-0965-4026-9da3-bb2ccc82cc6e")
+		(sheetname "/")
+		(sheetfile "Low3xD_SP.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "97c6720c-1050-45cd-80d1-b3c16989ccaf")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "15acd043-5c56-46ad-8416-d1a2d2acfc56")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "lander03xD:switch_cut"
+		(layer "F.Cu")
+		(uuid "43d72d79-ef46-460f-850a-b08f3dfddf2a")
+		(at 194.25 87.875)
+		(property "Reference" "S10"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "e04dcb24-9240-4b2e-871d-a28260c4a2f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "b3e5a9d3-6256-4643-9183-4523eca58305")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb64c993-0520-4e7f-bf4c-f4c5ddf664f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84f83807-e408-4e61-bd4a-f8cad339b00c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/517baa99-28fe-4e69-9281-69d974377fec")
+		(sheetname "/")
+		(sheetfile "Low3xD_SP.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "93f92268-cf29-42c8-9690-bf76d0e7f9e9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "cdd6168b-4f1c-4295-b63e-4d87fe35e90f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "lander03xD:switch_cut"
+		(layer "F.Cu")
+		(uuid "50dd555e-23a0-4d73-9649-ad3ff544a71f")
+		(at 157.25 60.125)
+		(property "Reference" "S3"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "800840a6-384b-4830-9cce-bbf30794a709")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "68f81102-77b7-46aa-b0c0-25c1bb841c5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "856b8646-9c0f-48af-ad1f-6e3cd346f98c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b888bcb0-3659-492e-9b7b-eec24b298896")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/7396481e-8fd3-47ab-a613-f118fffc7f1c")
+		(sheetname "/")
+		(sheetfile "Low3xD_SP.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "9f09a1ee-11e7-40c9-8ef6-96fda55763fe")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "ea5122a7-6290-4441-aa61-0dea42b7f3a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "lander03xD:switch_cut"
+		(layer "F.Cu")
+		(uuid "57cb4781-173f-49b3-849d-202f4a40d7e2")
+		(at 138.75 101.75)
+		(property "Reference" "S12"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "4f344325-77b7-4dde-addd-4d16afc05d75")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "b1faf321-47ce-4de9-99b5-e54e6fc580e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39e18089-8d5a-4e80-97d3-17848c4aacd5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c05c69f4-c046-4684-a4b8-078ac5269302")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/5b235359-cd87-477f-a3bc-960fdf4589cd")
+		(sheetname "/")
+		(sheetfile "Low3xD_SP.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "40a22d44-4702-426e-879c-75da4ce3115c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "0ba71917-9075-4812-87e1-78ce25ab3ffa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "lander03xD:switch_cut"
+		(layer "F.Cu")
+		(uuid "630cb6cb-10be-4a1f-899d-fa9df47bda26")
+		(at 157.25 78.625)
+		(property "Reference" "S8"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "b074e074-b743-4908-b8f4-f92828b0cf47")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "6f111d02-9a9b-45f2-bcfe-dad55ca49333")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f86c9f79-8257-49d6-8b60-0e0414533b6b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51f483c1-668f-4ad3-9418-1637fded5432")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/446d4f7f-d7ef-41c3-b0c5-3023ed13389d")
+		(sheetname "/")
+		(sheetfile "Low3xD_SP.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "b335f105-0409-4f70-a648-2bd8f6317e73")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "c0d3701c-46d0-405a-b92e-6c025f4cd0eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "lander03xD:switch_cut"
+		(layer "F.Cu")
+		(uuid "648b53bb-882a-4151-b8fd-d8430ba179cc")
+		(at 157.25 97.125)
+		(property "Reference" "S13"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "9917265f-3cb2-4563-baa0-97ae09e18937")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "ad53bee2-228a-4d68-9639-731b5c5c571e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d10f9d6-0040-4db3-96b9-7bfea9d4aee9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5cc18de8-e20d-4523-8f65-e87c9287f3e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/73a98f89-da5c-4e11-8c7c-72a9dd1a1e3b")
+		(sheetname "/")
+		(sheetfile "Low3xD_SP.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "cb69d964-7ab8-4b78-a91c-5dc2f80ca8ef")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "fe02a62a-d8ca-40ee-ba65-ac36f9d8be4a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "lander03xD:switch_cut"
+		(layer "F.Cu")
+		(uuid "7e921b18-cd0c-4a51-b3ea-62795aeb23ea")
+		(at 175.75 101.75)
+		(property "Reference" "S14"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "d3a5029e-b9fb-4400-9bf1-7d5f4ba525c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "8a5a68c5-1d30-404b-a06a-3e1201cf06c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e60abab-2f9c-45de-8035-db4bff55bea2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e92661c-5fae-4d8e-a534-36c544406d6b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/8d9c3197-430e-4ef8-ad7d-d4e10e18dd2a")
+		(sheetname "/")
+		(sheetfile "Low3xD_SP.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "3cff6a80-2865-4875-ab67-154d4123c1be")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "fc4dc5ba-f984-4a76-bfca-bde9cf440896")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "lander03xD:switch_cut"
+		(layer "F.Cu")
+		(uuid "9e244968-f4b0-4795-96b5-66c3198af760")
+		(at 175.75 64.75)
+		(property "Reference" "S4"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "69dff666-afa9-4553-9ba3-ace72fc0abb3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "9ff95131-f2d7-4add-8404-bd24707f0e38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a135105b-14d0-4ef8-9d43-074acc880253")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e8277ee-0431-40b6-9de3-b8804b676b7f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/d56f531e-8715-4b61-acbc-ec5c2567b274")
+		(sheetname "/")
+		(sheetfile "Low3xD_SP.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "9af50329-a4be-431b-9a0e-71770f040de3")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "df0914aa-89c3-41ab-9f7e-5220bc981974")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "lander03xD:switch_cut"
+		(layer "F.Cu")
+		(uuid "a082f74b-af71-4fa7-8777-7e7c086f4f72")
+		(at 138.75 83.25)
+		(property "Reference" "S7"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "b7a2a119-e520-4bbb-9743-3865955f7de6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "34e277f5-ad25-4a9c-b276-3f1dbe21f106")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b890f5d-1145-47a4-88c1-0f5edf3ef221")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ca41f2b-f9e9-4e54-acf2-5b09f87fc3a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/16d8021b-390e-438a-aea0-c724685dcb76")
+		(sheetname "/")
+		(sheetfile "Low3xD_SP.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "323ea0a0-2b26-41e9-9af2-2e1ee2db5ce8")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "c7f06078-551e-4d63-bdba-d689502fb560")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "lander03xD:switch_cut"
+		(layer "F.Cu")
+		(uuid "d7a1c25a-3501-493e-a555-5daeefe2ff07")
+		(at 175.75 83.25)
+		(property "Reference" "S9"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "7a312eef-8dba-48e5-a24d-46933d25c998")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "d399d7a4-ff2b-4f59-b10b-21ed709e0921")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd49b6bb-b2ce-480f-b33e-babad7e3db87")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b5543cc-33c6-446b-9a55-8328f022fff8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/8d1ee727-25f4-45c4-bb21-88ba6b85f664")
+		(sheetname "/")
+		(sheetfile "Low3xD_SP.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "1306c3b5-4ab5-4172-b4e8-01a5e6e01299")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "1b5a1839-dde4-433b-b446-e12d948fe1c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "lander03xD:switch_cut"
+		(layer "F.Cu")
+		(uuid "dc1f8834-7781-4c46-b3cc-3fe01e8b1ced")
+		(at 194.25 106.375)
+		(property "Reference" "S15"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "3d7818d6-a6dc-4dfa-8a49-4242354cec11")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "0aae07c8-67ce-41a6-9103-74ace52a141b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61ee9967-460e-444e-9ae3-67e1785eb350")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "803cb4b8-a3e3-4d4a-98ab-013a78e5644d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/0b4e4a45-5139-47a8-9409-2f1d6f3854d1")
+		(sheetname "/")
+		(sheetfile "Low3xD_SP.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "ade978a2-42dd-4781-abe0-d570eb7eccbd")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "acc5e03c-65e3-409b-a375-8f66d54855cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "lander03xD:switch_cut"
+		(layer "F.Cu")
+		(uuid "ea2bf6a1-1a46-4e3b-b23a-b1f12fbb1687")
+		(at 194.25 69.375)
+		(property "Reference" "S5"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "c0ab511b-9a00-4109-b39b-56a1842b9c64")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "ee707177-77da-4f25-b7f2-b09a78c0e71f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e1e2ee1-b0d8-4cef-bc02-4da156ef373d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f544acf5-fb86-49cf-9f3f-4a856b0cdc15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/e6990b82-9bf8-4269-91b0-02e30b0a50c7")
+		(sheetname "/")
+		(sheetfile "Low3xD_SP.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "c71dcacd-dc72-4629-8246-4c080d8d8aa1")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "208eb5f8-c783-4cda-ab96-e23f56a13ee0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "lander03xD:switch_cut"
+		(layer "F.Cu")
+		(uuid "f506b3a2-98ab-4492-bb5e-819a239a37f5")
+		(at 138.75 64.75)
+		(property "Reference" "S2"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "b9a4e806-3327-4358-9882-921204e99b38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "1158f907-d8f9-44a7-807d-7e7c478f5271")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21000a40-1015-4b80-91b9-b9ab63e246de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b882dbb-c662-4ecd-9a3b-02319ef944c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/aedbd309-3565-416c-9934-a9a26c6be576")
+		(sheetname "/")
+		(sheetfile "Low3xD_SP.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "32e0e0c3-fe11-41ed-835a-9f5cc4407a48")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "1d8f3c4f-4889-45c6-9559-43ec919fcb83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "lander03xD:switch_cut"
+		(layer "F.Cu")
+		(uuid "f97eb967-3e16-41fb-a753-4060c11f925b")
+		(at 175.75 120.25)
+		(property "Reference" "S16"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "a6c37efd-973d-4477-9710-b169e0a28b6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "c736a493-165b-4bbe-98fd-f34fefb2e011")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80399a1c-a008-4fb0-8174-b3894d533c5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f3baf15-b234-4b91-b6e9-e21df73e74d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/474e36ee-5690-4e2b-869f-1bfc3d63f1dd")
+		(sheetname "/")
+		(sheetfile "Low3xD_SP.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "e7b615cd-0287-4fae-9a56-12ebc5380998")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "50d43ba6-864e-4a2a-ba35-7fb1b56b5867")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(gr_arc
+		(start 111 61.28125)
+		(mid 111.338672 60.463672)
+		(end 112.15625 60.125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cae47e28-0b8d-4370-a758-10b133314cff")
+	)
+	(gr_line
+		(start 111 114.46875)
+		(end 111 61.28125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b5acd553-7e41-4831-8b19-64f26ea0aff6")
+	)
+	(gr_line
+		(start 112.15625 60.125)
+		(end 128.34375 60.125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "819435ef-80b1-41e8-85a9-d6234cf07c5b")
+	)
+	(gr_arc
+		(start 112.15625 115.625)
+		(mid 111.338672 115.286328)
+		(end 111 114.46875)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c41bcdf6-ed1d-41a4-8bb9-259accac07e3")
+	)
+	(gr_line
+		(start 128.34375 115.625)
+		(end 112.15625 115.625)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0627ae81-35ff-419e-b840-9b1e465e1aac")
+	)
+	(gr_arc
+		(start 129.5 56.65625)
+		(mid 129.838672 55.838672)
+		(end 130.65625 55.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c47f05a9-ba15-4db2-b453-e9c75622ac23")
+	)
+	(gr_arc
+		(start 129.5 58.96875)
+		(mid 129.161328 59.786328)
+		(end 128.34375 60.125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e2b6f12f-3eff-43cd-bba5-a2158243948f")
+	)
+	(gr_line
+		(start 129.5 58.96875)
+		(end 129.5 56.65625)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "91146f31-e217-4441-9e92-402d8ec4cbc5")
+	)
+	(gr_line
+		(start 129.5 112.15625)
+		(end 129.5 114.46875)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bc3d5713-df9a-42ec-8f4c-430f8fde7166")
+	)
+	(gr_arc
+		(start 129.5 112.15625)
+		(mid 129.838672 111.338672)
+		(end 130.65625 111)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "dded0447-4c28-479d-bc4c-04ffa6946299")
+	)
+	(gr_arc
+		(start 129.5 114.46875)
+		(mid 129.161328 115.286328)
+		(end 128.34375 115.625)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "96608564-a1c6-47cb-ab61-a9a990e47786")
+	)
+	(gr_line
+		(start 130.65625 55.5)
+		(end 146.84375 55.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f30bd468-b0fe-4174-b4c5-2a506349caf5")
+	)
+	(gr_line
+		(start 146.84375 111)
+		(end 130.65625 111)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "dc0a149c-5767-4759-946c-497fd0eb8a4f")
+	)
+	(gr_arc
+		(start 148 52.03125)
+		(mid 148.338672 51.213672)
+		(end 149.15625 50.875)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "37a91500-6dbd-491e-b5e1-f11430f30f63")
+	)
+	(gr_arc
+		(start 148 54.34375)
+		(mid 147.661328 55.161328)
+		(end 146.84375 55.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9b4d309a-0f84-4be7-91f8-d3a52580cd3d")
+	)
+	(gr_line
+		(start 148 54.34375)
+		(end 148 52.03125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8d862abf-faef-4e6b-87cf-06bd8335d0af")
+	)
+	(gr_line
+		(start 148 107.53125)
+		(end 148 109.84375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "577c2eaa-dd43-4c6c-85ba-b4c227c386b2")
+	)
+	(gr_arc
+		(start 148 107.53125)
+		(mid 148.338672 106.713672)
+		(end 149.15625 106.375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f0ebc359-e8bb-4a0c-942e-707c8c4cdf5d")
+	)
+	(gr_arc
+		(start 148 109.84375)
+		(mid 147.661328 110.661328)
+		(end 146.84375 111)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b8eb5573-a73c-4ef5-bb71-4bff1ea031c4")
+	)
+	(gr_line
+		(start 149.15625 50.875)
+		(end 165.34375 50.875)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c63a9bbb-4a9f-4b8e-8329-14436e8b577e")
+	)
+	(gr_rect
+		(start 150.25 53.125)
+		(end 164.25 67.125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "eb1aa743-6d78-4ebd-9125-b79ce5aae0bd")
+	)
+	(gr_arc
+		(start 165.34375 50.875)
+		(mid 166.161328 51.213672)
+		(end 166.5 52.03125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f07919cb-587d-40a9-b661-f6fce41f5139")
+	)
+	(gr_line
+		(start 165.34375 106.375)
+		(end 149.15625 106.375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3169007f-e0c5-4a63-a907-31d6e37af407")
+	)
+	(gr_arc
+		(start 165.34375 106.375)
+		(mid 166.161328 106.713672)
+		(end 166.5 107.53125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3497cc3f-5d98-4205-b79f-e76533bd9726")
+	)
+	(gr_line
+		(start 166.5 52.03125)
+		(end 166.5 54.34375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "add8b47f-67da-412f-8317-212f556f6693")
+	)
+	(gr_line
+		(start 166.5 128.34375)
+		(end 166.5 107.53125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "696aba29-ed60-4f24-9571-3e3812bb251e")
+	)
+	(gr_arc
+		(start 167.65625 55.5)
+		(mid 166.838672 55.161328)
+		(end 166.5 54.34375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "77a02f7a-f99b-4851-a2b1-9dfa8b70ab58")
+	)
+	(gr_line
+		(start 167.65625 55.5)
+		(end 183.84375 55.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7b0538f0-a5d8-4be5-b72f-f28684fde9f2")
+	)
+	(gr_arc
+		(start 167.65625 129.5)
+		(mid 166.838672 129.161328)
+		(end 166.5 128.34375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d2caa7b9-bf2f-469c-a2ca-a4928b36ce4e")
+	)
+	(gr_arc
+		(start 183.84375 55.5)
+		(mid 184.661328 55.838672)
+		(end 185 56.65625)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1f7cff03-a349-4adf-8b4f-46f1b36e9ebd")
+	)
+	(gr_line
+		(start 183.84375 129.5)
+		(end 167.65625 129.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "98241e86-bccd-4743-a17c-ee4c3eeb917f")
+	)
+	(gr_arc
+		(start 183.84375 129.5)
+		(mid 184.661328 129.838672)
+		(end 185 130.65625)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "98e04094-f58e-4187-8548-963e0ae3b98f")
+	)
+	(gr_line
+		(start 185 56.65625)
+		(end 185 58.96875)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "54d219d2-5605-4d0d-b392-691879ad535a")
+	)
+	(gr_line
+		(start 185 132.96875)
+		(end 185 130.65625)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e7f0a7ed-96a9-47f5-8e34-7f5e1b52c9c0")
+	)
+	(gr_arc
+		(start 186.15625 60.125)
+		(mid 185.338672 59.786328)
+		(end 185 58.96875)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e69b42e0-5016-4111-beed-4c68b5fe23c8")
+	)
+	(gr_line
+		(start 186.15625 60.125)
+		(end 202.921875 60.125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "76ae0eeb-74ce-46d0-a273-ea86c7b20cec")
+	)
+	(gr_arc
+		(start 186.15625 134.125)
+		(mid 185.338672 133.786328)
+		(end 185 132.96875)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "fffe84a1-d6c7-49d7-aa2b-c5d9aeb53749")
+	)
+	(gr_line
+		(start 202.34375 134.125)
+		(end 186.15625 134.125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7feb23fe-2b9c-44c4-bf9f-807a9d63f0f7")
+	)
+	(gr_arc
+		(start 202.34375 134.125)
+		(mid 203.161328 134.463672)
+		(end 203.5 135.28125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4b9a3730-9481-47fa-a948-c4846311673d")
+	)
+	(gr_line
+		(start 202.921875 60.125)
+		(end 202.921875 94.234375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "983465de-8b93-4c31-9955-3cf732788078")
+	)
+	(gr_line
+		(start 202.921875 94.234375)
+		(end 222 94.234375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "11f572ec-5576-4121-af5d-73ecdfb0d82c")
+	)
+	(gr_line
+		(start 203.5 137.59375)
+		(end 203.5 135.28125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "03898dc9-3945-41ed-82b9-8ddc329e396c")
+	)
+	(gr_arc
+		(start 204.65625 138.75)
+		(mid 203.838672 138.411328)
+		(end 203.5 137.59375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "49ccd195-61e3-432c-a88a-495cda4a111d")
+	)
+	(gr_line
+		(start 220.84375 138.75)
+		(end 204.65625 138.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "eadecd73-a239-4ce0-bc61-f252926df9d1")
+	)
+	(gr_line
+		(start 222 94.234375)
+		(end 222 137.59375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f5f833fd-8bb5-419e-8741-9151fe303e42")
+	)
+	(gr_arc
+		(start 222 137.59375)
+		(mid 221.661328 138.411328)
+		(end 220.84375 138.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6825e974-cfd9-41da-b8c2-33ad7a88e3be")
+	)
+	(gr_text "Low3xD by Lander03xD"
+		(at 148.578125 52.609375 0)
+		(layer "F.SilkS")
+		(uuid "f15c4ecb-d008-4efa-9075-08b5af9be3b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Low3xD by Lander03xD"
+		(at 165.921875 52.609375 0)
+		(layer "B.SilkS")
+		(uuid "beb62014-a312-4946-974f-878aae7d41da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(embedded_fonts no)
+)

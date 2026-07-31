@@ -1,0 +1,115 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/behaviors.h>
+
+#define BASE 0
+#define SYMB 1
+#define NAVI 2
+#define CONF 3
+
+/ {  
+    combos {
+        compatible = "zmk,combos";
+        
+        combo_activate_layer_3 {
+            timeout-ms = <150>;
+            key-positions = <15 17>;
+            bindings = <&mo CONF>;
+        };
+    };
+    
+    behaviors {        
+        mt: mod_tap {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            bindings = <&kp>, <&kp>;
+            tapping-term-ms = <220>;
+        };
+        
+        mt_b: mod_tap_balanced {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+	    flavor = "balanced";
+            bindings = <&kp>, <&kp>;
+            tapping-term-ms = <220>;
+        };
+    };
+
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer { // Layer 0
+            display-name = "Base";
+            bindings = <
+                &kp Q    &kp W    &kp E    &kp R    &kp T                   
+                &kp A    &kp S    &kp D    &kp F    &kp G 
+                &mt_b LGUI Z    &kp X    &kp C        &kp V      &kp B 
+                &mo NAVI     &mo SYMB      &mt LCTRL TAB    
+                
+                &kp Y    &kp U    &kp I    &kp O    &kp P
+                &kp H    &kp J    &kp K    &kp L    &kp SEMICOLON
+                &kp N    &kp M    &kp COMMA    &kp DOT    &mt_b LALT  SLASH
+                &kp LSHIFT    &kp SPACE     &mt LCTRL RET
+            >;
+        };
+
+        symb_layer { //layer 1
+            display-name = "Symbol";
+            bindings = <
+                &kp GRAVE   &kp PERCENT    &kp PIPE         &kp AMPERSAND  &kp UNDERSCORE
+                &kp TILDE    &kp EXCLAMATION          &kp LEFT_BRACE    &kp LEFT_PARENTHESIS    &kp MINUS
+                &kp N1    &kp N2    &kp N3    &kp N4    &kp N5                 
+                &none     &none            &none
+                
+                &kp PLUS    &kp KP_SLASH   &kp BACKSLASH    &kp KP_PLUS    &kp KP_EQUAL
+                &kp EQUAL    &kp RIGHT_PARENTHESIS    &kp ASTERISK      &kp KP_MINUS            &kp DOUBLE_QUOTES
+                &kp N6    &kp N7    &kp N8    &kp N9    &kp N0
+                &trans    &kp BACKSPACE    &trans
+            >;
+        };  
+
+        navi_layer { //layer 2
+            display-name = "Navigation";
+            bindings = <
+                &kp ESCAPE      &kp HOME     &kp UP          &kp END      &kp PG_UP   
+                &kp K_MUTE      &kp LEFT          &kp DOWN          &kp RIGHT          &kp PG_DN   
+                &kp F1    &kp F2    &kp F3    &kp F4    &kp F5
+                &none     &none         &none
+                
+                &kp C_VOL_UP    &mkp LCLK    &mmv MOVE_UP    &mkp RCLK    &msc SCRL_UP
+                &kp C_VOL_DN    &mmv MOVE_LEFT    &mmv MOVE_DOWN    &mmv MOVE_RIGHT    &msc SCRL_DOWN
+                &kp F6    &kp F7    &kp F8    &kp F9    &kp F10
+                &trans    &kp DELETE    &trans
+            >;
+        };
+
+
+        config_layer { //layer 3
+            display-name = "Config";
+            bindings = <
+                &bootloader    &studio_unlock    &none    &none    &bt BT_SEL 0    
+                &bt BT_CLR_ALL    &none    &none    &none    &bt BT_SEL 1           
+                &bt BT_CLR    &none    &none    &none   &bt BT_SEL 2         
+                &none   &none    &none 
+                
+                &bt BT_DISC 0          &none             &none    &none    &bootloader  
+                &bt BT_DISC 1    &none    &none    &none    &none   
+                &bt BT_DISC 2          &none    &none    &none    &none   
+                &none   &none    &none               
+            >;
+        }; 
+        
+        
+        extra_1 {
+            status = "reserved";
+        }; 
+        
+        extra_2 {
+            status = "reserved";
+        };
+
+
+    };
+ };

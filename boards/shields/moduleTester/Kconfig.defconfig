@@ -1,0 +1,6 @@
+if SHIELD_MODULETESTER
+
+config ZMK_KEYBOARD_NAME 
+    default "ModuleTester"
+
+endif

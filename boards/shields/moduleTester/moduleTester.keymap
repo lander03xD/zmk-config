@@ -1,0 +1,25 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/behaviors.h>
+
+
+#include <behaviors/morse.dtsi> // include for the morse reference
+#include <behaviors/ceasar.dtsi> // include for the ceasar reference
+#include <behaviors/noise.dtsi> // include for the ceasar reference
+
+/ {  
+    keymap {
+        compatible = "zmk,keymap";
+        
+        default_layer {
+            display-name = "Base";
+            bindings = <
+                &morse    &ceasar    &noise    &kp N4    &kp N5  
+                &kp N6    &kp N7    &kp N8    &kp N9    &kp N0  
+                &kp N1    &kp N2    &kp N3    &kp N4    &kp N5  
+                &kp N6    &kp N7    &kp N8    &kp N9    &kp N0  
+                &kp N1
+            >;
+        };
+    };
+ };

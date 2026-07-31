@@ -112,6 +112,11 @@ include:
 #    shield: mcuTester
 
 #Tv03xD
-  - board: nice_nano_v2
-    shield: tv03xD
+#  - board: nice_nano_v2
+#    shield: tv03xD
+
+#ModuleTester
+#  - board: nice_nano_v2
+#    shield: moduleTester
+
 

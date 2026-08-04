@@ -39,12 +39,13 @@ include:
 #    shield: direct03xD_right
     
 # Low3xD
-#  - board: nice_nano_v2
-#    shield: low3xD_left
-#    snippet: studio-rpc-usb-uart 
-#    cmake-args: -DCONFIG_ZMK_STUDIO=y
-#  - board: nice_nano_v2
-#    shield: low3xD_right
+  - board: nice_nano_v2
+    shield: low3xD_left
+    snippet: studio-rpc-usb-uart 
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+  - board: nice_nano_v2
+    snippet: zmk-usb-logging
+    shield: low3xD_right
 
 # Comb03xD
 #  - board: nice_nano_v2
@@ -71,12 +72,12 @@ include:
 #    shield: splitFish_right
 
 # exp36
-#  - board: nice_nano_v2
-#    shield: exp36_left
-#    snippet: studio-rpc-usb-uart
-#    cmake-args: -DCONFIG_ZMK_STUDIO=y
-#  - board: nice_nano_v2
-#    shield: exp36_right
+  - board: nice_nano_v2
+    shield: exp36_left
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+  - board: nice_nano_v2
+    shield: exp36_right
     
 # Numer03xD
 #  - board: nice_nano_v2

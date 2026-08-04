@@ -14,6 +14,9 @@ if SHIELD_EXP36_LEFT || SHIELD_EXP36_RIGHT
 
 config ZMK_SPLIT
     default y
+    
+config ZMK_SLEEP
+    default y
 
 endif
 	

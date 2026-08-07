@@ -1,0 +1,37 @@
+if SHIELD_ORTH03XD_LEFT
+
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "Orth03xD"
+
+#currently central is the left side
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+    
+config ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_PROXY
+    default y 
+
+config ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING
+    default y
+
+endif
+
+if SHIELD_ORTH03XD_LEFT || SHIELD_ORTH03XD_RIGHT
+
+config ZMK_SPLIT
+    default y
+    
+#sleep settings
+#Idle
+config ZMK_IDLE_TIMEOUT
+    default 20000
+
+#Deep sleep
+config ZMK_SLEEP
+    default y
+
+config ZMK_IDLE_SLEEP_TIMEOUT
+    default 3600000
+    
+endif
+	

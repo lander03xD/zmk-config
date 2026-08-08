@@ -11,11 +11,11 @@
         base_layer {
             display-name = "base_layer";
             bindings = < 
-                &kp KP_N1    &kp KP_N2    &kp KP_N3    &kp KP_N4    &kp KP_N5
+                &bt BT_CLR_ALL    &kp KP_N2    &kp KP_N3    &kp KP_N4    &kp KP_N5
                 &kp KP_N6    &kp KP_N7    &kp KP_N8    &kp KP_N9    &kp KP_N0 
                 &kp KP_N1    &kp KP_N2    &kp KP_N3    &kp KP_N4    &kp KP_N5
                 
-                &kp KP_N6    &kp KP_N7    &kp KP_N8    &kp KP_N9    &kp KP_N0 
+                &kp BT_CLR_ALL    &kp KP_N7    &kp KP_N8    &kp KP_N9    &kp KP_N0 
                 &kp KP_N1    &kp KP_N2    &kp KP_N3    &kp KP_N4    &kp KP_N5
                 &kp KP_N6    &kp KP_N7    &kp KP_N8    &kp KP_N9    &kp KP_N0   
             >;

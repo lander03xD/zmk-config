@@ -21,22 +21,22 @@
 
 include:
 # Cheap03xD
-#  - board: nice_nano_v2
-#    shield: cheap03xD_left
-#    snippet: zmk-usb-logging
-#    snippet: studio-rpc-usb-uart 
-#    cmake-args: -DCONFIG_ZMK_STUDIO=y
-#  - board: nice_nano_v2
-#    shield: cheap03xD_right
+  - board: nice_nano_v2
+    shield: cheap03xD_left
+    snippet: zmk-usb-logging
+    snippet: studio-rpc-usb-uart 
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+  - board: nice_nano_v2
+    shield: cheap03xD_right
 
 # Direct03xD
-#  - board: nice_nano_v2
-#    shield: direct03xD_left
-#    snippet: studio-rpc-usb-uart 
-#    cmake-args: -DCONFIG_ZMK_STUDIO=y
-#  - board: nice_nano_v2
-#    snippet: zmk-usb-logging
-#    shield: direct03xD_right
+  - board: nice_nano_v2
+    shield: direct03xD_left
+    snippet: studio-rpc-usb-uart 
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+  - board: nice_nano_v2
+    snippet: zmk-usb-logging
+    shield: direct03xD_right
     
 # Low3xD
   - board: nice_nano_v2
@@ -48,7 +48,7 @@ include:
     shield: low3xD_right
     
     
-# Low3xD
+# orth03xD
   - board: nice_nano_v2
     shield: orth03xD_left
     snippet: studio-rpc-usb-uart 
@@ -58,28 +58,28 @@ include:
     shield: orth03xD_right
 
 # Comb03xD
-#  - board: nice_nano_v2
-#    shield: comb03xD
+  - board: nice_nano_v2
+    shield: comb03xD
 
 # Chord03xD
-#  - board: nice_nano_v2
-#    shield: chord03xD
-#    snippet: studio-rpc-usb-uart
-#    cmake-args: -DCONFIG_ZMK_STUDIO=y
+  - board: nice_nano_v2
+    shield: chord03xD
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
 
 # Macr03xD
-#  - board: nice_nano_v2
-#    shield: macr03xD
-#    snippet: studio-rpc-usb-uart
-#    cmake-args: -DCONFIG_ZMK_STUDIO=y
+  - board: nice_nano_v2
+    shield: macr03xD
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
 
 # SplitFish
-#  - board: nice_nano_v2
-#    shield: splitFish_left
-#    snippet: studio-rpc-usb-uart
-#    cmake-args: -DCONFIG_ZMK_STUDIO=y
-#  - board: nice_nano_v2
-#    shield: splitFish_right
+  - board: nice_nano_v2
+    shield: splitFish_left
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+  - board: nice_nano_v2
+    shield: splitFish_right
 
 # exp36
   - board: nice_nano_v2
@@ -90,41 +90,41 @@ include:
     shield: exp36_right
     
 # Numer03xD
-#  - board: nice_nano_v2
-#    shield: numer03xD
-#    snippet: studio-rpc-usb-uart
-#    cmake-args: -DCONFIG_ZMK_STUDIO=y
+  - board: nice_nano_v2
+    shield: numer03xD
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
     
 # FishKeeb
-#  - board: nice_nano_v2
-#    shield: fishKeeb
-#    snippet: studio-rpc-usb-uart   
-#    snippet: zmk-usb-logging
-#    cmake-args: -DCONFIG_ZMK_STUDIO=y
+  - board: nice_nano_v2
+    shield: fishKeeb
+    snippet: studio-rpc-usb-uart   
+    snippet: zmk-usb-logging
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
 
 # Sten03xD
-#  - board: nice_nano_v2
-#    shield: sten03xD_left
-#  - board: nice_nano_v2
-#    shield: sten03xD_right
+  - board: nice_nano_v2
+    shield: sten03xD_left
+  - board: nice_nano_v2
+    shield: sten03xD_right
 
 #Crab03xD
-#  - board: nice_nano_v2
-#    shield: crab03xD
-#    snippet: studio-rpc-usb-uart
-#    cmake-args: -DCONFIG_ZMK_STUDIO=y
+  - board: nice_nano_v2
+    shield: crab03xD
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
   
 #RESET
-#  - board: nice_nano_v2
-#    shield: settings_reset
+  - board: nice_nano_v2
+    shield: settings_reset
 
 #McuTester
-#  - board: nice_nano_v2
-#    shield: mcuTester
+  - board: nice_nano_v2
+    shield: mcuTester
 
 #Tv03xD
-#  - board: nice_nano_v2
-#    shield: tv03xD
+  - board: nice_nano_v2
+    shield: tv03xD
 
 #ModuleTester
   - board: nice_nano_v2

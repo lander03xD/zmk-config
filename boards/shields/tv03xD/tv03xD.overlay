@@ -93,8 +93,8 @@
         // filter-dynamic-bottom=<7>;     /* Dynamic filter bottom beta (optional) */
         // filter-dynamic-lower=<6>;      /* Dynamic filter lower speed (optional) */
         // filter-dynamic-upper=<0xFA>;   /* Dynamic filter upper speed (optional) */
-        x-resolution=<1280>;            /* X resolution in pixels */
-        y-resolution=<720>;            /* Y resolution in pixels */
+        x-resolution=<2048>;            /* X resolution in pixels */
+        y-resolution=<1792>;            /* Y resolution in pixels */
 
         // swipe-initial-distance=<500>;          /* Swipe initial distance in px (optional) */
         // swipe-initial-time=<200>;              /* Swipe initial time in ms (optional) */
@@ -110,10 +110,10 @@
         two-finger-tap;
         single-tap;
         press-and-hold;
-        swipes;
+        //swipes;
         // three-finger-swipe;                    /* 3-finger swipe only, without enabling 1-finger swipe (optional) */
         // three-finger-swipe-throttle-ms=<300>;  /* Min ms between 3-finger swipe actuations, 0 disables (optional, default 300) */
-        zoom;
+        //zoom;
 
         switch-xy;
         invert-scroll-y;

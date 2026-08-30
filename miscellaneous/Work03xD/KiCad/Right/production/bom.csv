@@ -1,0 +1,5 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+BT1,Battery pins,1,Battery_Cell,
+"S1, S10, S11, S12, S13, S14, S15, S16, S17, S18, S2, S3, S4, S5, S6, S7, S8, S9",Hotswap_Choc_V1V2_1.00u_18.5_throughole,18,Keyswitch,
+SW1,powerswitch_SK12D07VG,1,SW_SPDT_312,
+U1,Promicro_nrf52840_unprinted,1,Promicro_NRF52840,

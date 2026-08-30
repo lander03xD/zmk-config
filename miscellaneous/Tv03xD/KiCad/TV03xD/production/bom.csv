@@ -1,0 +1,9 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+BT1,Battery pins,1,Battery_Cell,
+D1,LED_D5.0mm,1,LED,
+Q1,TO-92_Inline,1,2N7000,
+R2,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1,R,
+"S1, S2, S3",Hotswap_Choc_V1V2_1.00u_18.5_throughole,3,Keyswitch,
+SW1,powerswitch_SK12D07VG,1,SW_SPDT_312,
+TPS1,Azoteq ProxSense TPS43,1,~,
+U1,Promicro_nrf52840_unprinted,1,Promicro_NRF52840,

@@ -9,6 +9,8 @@
 #define NAVI 2
 #define CONF 3
 
+#include <behaviors/noise.dtsi> // include for the ceasar reference
+
 / {  
     combos {
         compatible = "zmk,combos";

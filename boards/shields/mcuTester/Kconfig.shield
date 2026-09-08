@@ -1,2 +1,5 @@
-config SHIELD_MCUTESTER
-    def_bool $(shields_list_contains,mcuTester)
+config SHIELD_MCUTESTER_LEFT
+    def_bool $(shields_list_contains,mcuTester_left)
+
+config SHIELD_MCUTESTER_RIGHT
+    def_bool $(shields_list_contains,mcuTester_right)

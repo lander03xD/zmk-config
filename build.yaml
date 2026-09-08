@@ -120,7 +120,9 @@ include:
 
 #McuTester
   - board: nice_nano_v2
-    shield: mcuTester
+    shield: mcuTester_left
+  - board: nice_nano_v2
+    shield: mcuTester_right
 
 #Tv03xD
   - board: nice_nano_v2

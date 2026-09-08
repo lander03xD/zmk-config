@@ -65,7 +65,7 @@
                 &kp N1    &kp N2    &kp N3    &kp N4    &kp N5                 
                 &none     &none            &none
                 
-                &kp PLUS    &kp KP_SLASH   &kp BACKSLASH    &kp KP_PLUS    &kp EQUAL
+                &kp PLUS    &kp KP_SLASH   &kp BACKSLASH    &kp KP_PLUS    &kp RIGHT_BRACKET
                 &kp EQUAL    &kp RIGHT_PARENTHESIS    &kp ASTERISK      &kp KP_MINUS            &kp DOUBLE_QUOTES
                 &kp N6    &kp N7    &kp N8    &kp N9    &kp N0
                 &trans    &kp BACKSPACE    &trans

@@ -102,7 +102,7 @@
             display-name = "Symbol";
             bindings = <
                 &kp GRAVE   &kp PERCENT    &kp PIPE         &kp AMPERSAND  &kp UNDERSCORE
-                &kp PLUS    &kp KP_SLASH   &kp BACKSLASH    &kp KP_PLUS    &kp EQUAL
+                &kp PLUS    &kp KP_SLASH   &kp BACKSLASH    &kp KP_PLUS    &kp RIGHT_BRACKET
 
                 &kp TILDE    &kp EXCLAMATION          &kp LEFT_BRACE    &kp LEFT_PARENTHESIS    &kp MINUS
                 &kp EQUAL    &kp RIGHT_PARENTHESIS    &kp ASTERISK      &kp KP_MINUS            &kp DOUBLE_QUOTES

@@ -121,8 +121,10 @@ include:
 #McuTester
   - board: nice_nano_v2
     shield: mcuTester_left
+    snippet: zmk-usb-logging
   - board: nice_nano_v2
     shield: mcuTester_right
+    snippet: zmk-usb-logging
 
 #Tv03xD
   - board: nice_nano_v2

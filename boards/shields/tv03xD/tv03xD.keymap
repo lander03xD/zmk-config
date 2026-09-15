@@ -3,6 +3,10 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/mouse.h>
 
+
+#include <behaviors/ir_tv.dtsi> // include for the ceasar reference
+
+
 / {    
     combos {
         compatible = "zmk,combos";
@@ -10,7 +14,7 @@
         combo_activate_layer_3 {
             timeout-ms = <50>;
             key-positions = <0 2>;
-            bindings = <&kp N4>;
+            bindings = <&ir_tv>;
         };
     };
     

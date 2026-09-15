@@ -138,6 +138,7 @@ include:
 #Tv03xD
   - board: nice_nano_v2
     shield: tv03xD
+    snippet: zmk-usb-logging
 
 #ModuleTester
   - board: nice_nano_v2

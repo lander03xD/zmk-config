@@ -48,6 +48,36 @@
     
 };
 
+//ir blaster 
+&pwm0 {
+    status = "okay";
+    pinctrl-0 = <&pwm0_default>;
+    pinctrl-1 = <&pwm0_sleep>;
+    pinctrl-names = "default", "sleep";
+};
+
+&pinctrl {
+    pwm0_default: pwm0_default {
+        group1 { psels = <NRF_PSEL(PWM_OUT0, 0, 6)>; };
+    };
+    pwm0_sleep: pwm0_sleep {
+        group1 {
+            psels = <NRF_PSEL(PWM_OUT0, 0, 6)>;
+            low-power-enable;
+        };
+    };
+};
+
+/ {
+    ir_led_pwm: ir_led_pwm {
+        compatible = "pwm-leds";
+        pwm_ir: pwm_ir {
+            pwms = <&pwm0 0 PWM_USEC(26) PWM_POLARITY_NORMAL>;
+        };
+    };
+};
+
+//touchpad 
 
 &pinctrl {
     my_i2c0_default: my_i2c0_default {
@@ -66,6 +96,8 @@
         };
     };
 };
+
+
 
 &i2c0 {
    status = "okay";

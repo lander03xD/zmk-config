@@ -9,9 +9,9 @@
         label = "default_kscan";
         wakeup-source;
         //TODO these are not the pins you are looking for
-        input-gpios =  <&gpio0 31 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>, //Pin_1 
+        input-gpios =  <&gpio0 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>, //Pin_1 
 	               <&gpio0 29 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,//Pin_2
-		       <&gpio0 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> //Pin_3
+		       <&gpio0 31 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> //Pin_3
 			    ;
     };
     

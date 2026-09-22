@@ -24,7 +24,14 @@
         base_layer {
             display-name = "base_layer";
             bindings = <
-                &kp N1 &kp N2 &kp N3
+                &kp C_VOLUME_DOWN &lt 1 C_PLAY_PAUSE &kp C_VOLUME_UP
+            >;
+        }; 
+        
+        prevnext_layer {
+            display-name = "prevnext_layer";
+            bindings = <
+                &kp C_PREV &none &kp C_NEXT
             >;
         }; 
     };

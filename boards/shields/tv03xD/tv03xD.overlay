@@ -117,9 +117,9 @@
         rdy-gpios = <&gpio0 22 GPIO_ACTIVE_HIGH>;
 
         
-        sensitivity = <50>;           /* 100% = normal state */
-        scroll-sensitivity = <50>;     /* 50% = normal state */
-        zoom-sensitivity = <50>;       /* 50% = normal state */
+        sensitivity = <25>;           /* 100% = normal state */
+        scroll-sensitivity = <30>;     /* 50% = normal state */
+        zoom-sensitivity = <30>;       /* 50% = normal state */
 
 
         filter-settings=<0x0B>;        /* See filter description in `available settings` */

@@ -16,7 +16,7 @@
     };
     
     default_transform: keymap_transform0 {
-        compatible = "zmk,matrix-tran!so yorlsform";
+        compatible = "zmk,matrix-transform";
         columns = <1>;
         rows = <3>;
         map = <RC(0,0) RC(0,1) RC(0,2) >;

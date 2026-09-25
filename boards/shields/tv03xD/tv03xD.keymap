@@ -11,10 +11,25 @@
     combos {
         compatible = "zmk,combos";
         
-        combo_activate_layer_3 {
+        combo_IR {
+            timeout-ms = <50>;
+            key-positions = <0 1 2>;
+            bindings = <&ir_tv>;
+        };
+        combo_SCRL_DOWN {
+            timeout-ms = <50>;
+            key-positions = <0 1 >;
+            bindings = <&mkp SCRL_DOWN>;
+        };
+        combo_SCRL_UP {
+            timeout-ms = <50>;
+            key-positions = <1 2>;
+            bindings = <&mkp SCRL_UP>;
+        };
+        combo_BT {
             timeout-ms = <50>;
             key-positions = <0 2>;
-            bindings = <&ir_tv>;
+            bindings = <&mo 2>;
         };
     };
     
@@ -32,6 +47,13 @@
             display-name = "prevnext_layer";
             bindings = <
                 &kp C_PREV &none &kp C_NEXT
+            >;
+        }; 
+        
+        bt_layer {
+            display-name = "bt_layer";
+            bindings = <
+                &none &bt BT_CLR &none
             >;
         }; 
     };

@@ -4,14 +4,6 @@ if SHIELD_TV03XD
 config ZMK_KEYBOARD_NAME
     default "TV03xD"
     
-config ZMK_POINTING
-    default y
-    
-#Enable deep sleep
-config ZMK_SLEEP
-    default y
-    
-    
 config I2C
     default y
 
